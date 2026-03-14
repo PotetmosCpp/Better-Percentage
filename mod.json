@@ -8,7 +8,7 @@
 	},
 	"id": "potetmoscpp.better_percentage",
 	"name": "Better Percentage",
-	"version": "v2.0.0",
+	"version": "v2.0.1",
 	"developer": "potetmoscpp",
 	"description": "options for showing run from and best run next to the percentage",
 	"tags": [
