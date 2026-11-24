@@ -15,6 +15,9 @@
 		"gameplay",
 		"enhancement"
 	],
+	"links": {
+  	"source": "https://github.com/PotetmosCpp/Better-Percentage"
+	},
 	"settings": {
 		"decimals": {
 			"name": "Decimal Places",
