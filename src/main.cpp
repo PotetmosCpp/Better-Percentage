@@ -8,6 +8,12 @@ class $modify(PlayLayer) {
 		std::unordered_map<double, double> m_bestRunEnds;	// dumb name i think idk
 	};
 
+	static void onModify(auto& self) {
+	    if (!self.setHookPriorityPost("PlayLayer::updateProgressbar", Priority::Late)) {
+			geode::log::warn("Failed to set hook priority.");
+		}
+	}
+
 	void destroyPlayer(PlayerObject* player, GameObject* object) {
 		PlayLayer::destroyPlayer(player, object);
 
