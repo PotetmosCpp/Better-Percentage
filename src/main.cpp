@@ -2,7 +2,7 @@
 
 using namespace geode::prelude;
 
-class $modify(MyPlayLayer, PlayLayer) {
+class $modify(PlayLayer) {
 	struct Fields {
 		float m_runFrom;
 		std::unordered_map<double, double> m_bestRunEnds;	// dumb name i think idk
